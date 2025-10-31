@@ -1,0 +1,127 @@
+/* Main gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  min-height: 100vh;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* Title */
+.title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #3b006a;
+  text-shadow: 1px 1px 8px #fff6fb66, 0 4px 32px #b07de0aa;
+}
+
+/* Section card */
+.section {
+  margin: 18px 0;
+  padding: 26px 24px 20px 24px;
+  background: linear-gradient(100deg, #ffffff 70%, #e3ebff 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(120, 54, 218, 0.11);
+  width: 84%;
+  max-width: 540px;
+  text-align: left;
+  border-left: 7px solid #a16ae8;
+  border-right: 1px solid #a6c1ee;
+}
+
+.section h2 {
+  color: #4b2991;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  min-height: 110px;
+  margin-bottom: 13px;
+  padding: 11px 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1.7px solid #c7b6ec;
+  background: #f9f7fd;
+  color: #33275c;
+  resize: vertical;
+  outline: none;
+  transition: border 0.19s;
+}
+
+textarea:focus {
+  border: 2px solid #764ba2;
+  background: #f0eeff;
+}
+
+/* File Input */
+input[type="file"] {
+  margin-top: 8px;
+  font-size: 15px;
+  padding: 6px 0;
+  color: #48317e;
+  background: transparent;
+}
+
+/* Button */
+.btn {
+  margin-top: 24px;
+  padding: 13px 36px;
+  background: linear-gradient(90deg, #7f53ac 32%, #647dee 100%);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.15s;
+  box-shadow: 0 2px 10px 0 #9c6decc5;
+  letter-spacing: 0.05em;
+}
+
+.btn:hover {
+  background: linear-gradient(95deg, #5031a9 0%, #2f6dbe 100%);
+  box-shadow: 0 4px 16px 0 #b7b9ff80;
+}
+
+/* Highlighted text */
+mark {
+  background: linear-gradient(88deg, #fff981 60%, #ffe578 100%);
+  color: #7f5400;
+  font-weight: bold;
+  padding: 1.5px 6px;
+  border-radius: 5px;
+  box-shadow: 0 1px 12px #fffde855;
+  font-size: 1em;
+}
+
+/* Output section */
+.output {
+  margin-top: 22px;
+}
+
+/* Highlight result area */
+.highlight-box {
+  text-align: left;
+  white-space: pre-wrap;
+  background: #eaf2ff;
+  padding: 18px 15px;
+  border-radius: 11px;
+  border: 2.2px solid #b0a8f1;
+  color: #272343;
+  transition: box-shadow 0.2s;
+  font-size: 15.5px;
+  min-height: 48px;
+}

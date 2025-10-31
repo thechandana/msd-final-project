@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: resume-highlighter-api
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "npm run start:server"
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    autoDeploy: true
